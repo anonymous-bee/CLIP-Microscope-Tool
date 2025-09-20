@@ -19,7 +19,7 @@ from sklearn.manifold import TSNE
 import seaborn as sns
 
 # Configuration for Hugging Face dataset
-HF_REPO_ID = "ernestoBocini/clip-microscope-imagenet"
+HF_REPO_ID = "anonymous"
 HF_BASE_URL = f"https://huggingface.co/datasets/{HF_REPO_ID}/resolve/main"
 
 # ImageNet class mapping for human-readable labels
@@ -1645,7 +1645,7 @@ def main():
         st.markdown("**Neurons:** 2,560 analyzed")
     
     with col3:
-        st.markdown(f"**Source:** [Hugging Face Dataset](https://huggingface.co/datasets/{HF_REPO_ID})")
+        st.markdown(f"**Source:** [Redacted for Double Blind Review](https://huggingface.co/datasets/{HF_REPO_ID})")
         st.markdown("**Inspiration:** [OpenAI Microscope](https://microscope.openai.com)")
     
     st.markdown('</div>', unsafe_allow_html=True)
