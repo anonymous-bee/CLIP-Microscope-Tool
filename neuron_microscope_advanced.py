@@ -19,7 +19,7 @@ from sklearn.manifold import TSNE
 import seaborn as sns
 
 # Configuration for Hugging Face dataset
-HF_REPO_ID = "anonymous"
+HF_REPO_ID = "anonymous-bee/clip-microscope-imagenet"
 HF_BASE_URL = f"https://huggingface.co/datasets/{HF_REPO_ID}/resolve/main"
 
 # ImageNet class mapping for human-readable labels
